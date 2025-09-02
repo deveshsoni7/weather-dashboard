@@ -16,7 +16,12 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    favorites : [String]
+    refreshToken : {
+        type:String,
+    },
+
+    favorites : [String],
+    
 
 
 })
